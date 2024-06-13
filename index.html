@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <form class="form_cls">
+        <div class="headline">
+            <h2 id="title">Sign up</h2>
+        </div>
+        <div class="input-form">
+            <div class="name" id="name1"> 
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" placeholder="name" style="height: 30px; width:180px; padding: 0px 15px;">
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" id="email" placeholder="emai id" style="height: 30px; width:180px; padding: 0px 15px;">
+            </div>
+            <div>
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" id="password" placeholder="password" style="height: 30px; width:180px; padding: 0px 15px;">
+            </div>
+            <h2 style="font-size:0.7rem; color: red; text-decoration: underline; margin-top:5px;cursor:pointer">Forgot Password</h2>
+            </div>
+        </div>
+        <div class="btns">
+            <button id="signup" style="background-color: gray">Sign up</button>
+            <button id="signin" onclick="signupbtn()">Log in</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
